@@ -1,4 +1,4 @@
-image,section
-image (3).png,top
-image (2).png,top
-image (1).png,bottom
+image,location,coordinates
+image (3).png,middle-left,"(0, 533, 533, 1066)"
+image (2).png,top-left,"(0, 0, 533, 533)"
+image (1).png,bottom-right,"(1066, 1066, 1600, 1600)"
