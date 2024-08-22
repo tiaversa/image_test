@@ -8,13 +8,6 @@ parser = argparse.ArgumentParser(
 )
 parser.add_argument("--image_path", "-i", help="Name of the image.",type=str, default="")
 
-
-from PIL import Image
-import numpy as np
-
-from PIL import Image
-import numpy as np
-
 def test_image(image_name):
     # Load the image
     img = Image.open(f'images/{image_name}')
@@ -88,7 +81,7 @@ def test_image(image_name):
     return whitest_section, coordinates
     
 if __name__ == '__main__':
-    df = pd.DataFrame(columns=['image', 'location','coordinates'])
+    df = pd.DataFrame(columns=['image', 'location', 'coordinates'])
     args = parser.parse_args()
     if not args.image_path == "":
         location, coords = test_image(args.image_path)

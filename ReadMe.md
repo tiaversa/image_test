@@ -19,7 +19,7 @@ pip install -r requirements.txt
 2. Add the images to be processes in the images folder.
 3. Run the python script.
 ```
-python3 image_testing.py <optional -i "image_name">
+python3 image_testing.py <optional -i "image name">
 ```
 
 ## Result:
